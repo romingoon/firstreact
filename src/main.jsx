@@ -1,14 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 
-import Library from './chapter_03/Library';
-import Clock from './chapter_04/Clock';
-import CommentList from './chapter_05/CommentList';
+import NotificationList from './chapter_06/NotificationList';
+import Counter from './chapter_07/Counter';
+import TextInputWithFocusButton from './chapter_07/TextInputWithFocusButton';
+import MeasureExample from './chapter_07/MeasureExample';
+import Accomodate from './chapter_07/Accommodate';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.render(
   <React.StrictMode>
-    <CommentList />
-  </React.StrictMode>
+    <Accomodate />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
