@@ -8,10 +8,11 @@ import Counter from './chapter_07/Counter';
 import TextInputWithFocusButton from './chapter_07/TextInputWithFocusButton';
 import MeasureExample from './chapter_07/MeasureExample';
 import Accomodate from './chapter_07/Accommodate';
+import ConfirmButton from './chapter_08/confirmButton';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Accomodate />
+    <ConfirmButton />
   </React.StrictMode>,
   document.getElementById('root')
 );
